@@ -16,7 +16,7 @@ One-stage目标检测任务的训练目标难度更大，因为teacher网络会�
 
 并且该文章使用未标注数据作为蒸馏损失，跟检测损失（有标注数据）加权求和作为最终的损失函数。
 
-![](https://ai-studio-static-online.cdn.bcebos.com/b66b22ea901f4d398e330465c7e8c0a041629aa8e82a43af8e36d757480d47e5)
+![](https://github.com/Sharpiless/Yolov3-MobileNet-Pruning/blob/main/model.png)
 
 
 # 关于作者
@@ -187,28 +187,6 @@ Best test box ap: 44.40395830547559, in step: 66000
     -r output/yolov3_mobilenet_v1_voc/38000
 ```
 
-    2021-04-30 11:14:19,128 - INFO - step 67200 lr 0.000010, loss 42.511688, distill_loss 12.518637, teacher_loss 22.399191
-    2021-04-30 11:14:40,227 - INFO - step 67300 lr 0.000010, loss 24.595768, distill_loss 17.012951, teacher_loss 7.210430
-    2021-04-30 11:15:00,549 - INFO - step 67400 lr 0.000010, loss 33.262058, distill_loss 11.598403, teacher_loss 18.617779
-    2021-04-30 11:15:20,747 - INFO - step 67500 lr 0.000010, loss 33.465805, distill_loss 16.841127, teacher_loss 11.957682
-    2021-04-30 11:15:43,162 - INFO - step 67600 lr 0.000010, loss 34.732750, distill_loss 22.962461, teacher_loss 11.200234
-    2021-04-30 11:16:04,027 - INFO - step 67700 lr 0.000010, loss 48.137634, distill_loss 21.632807, teacher_loss 25.653572
-    2021-04-30 11:16:24,828 - INFO - step 67800 lr 0.000010, loss 28.196875, distill_loss 16.726215, teacher_loss 7.880371
-    2021-04-30 11:16:45,435 - INFO - step 67900 lr 0.000010, loss 33.850609, distill_loss 17.687098, teacher_loss 14.932596
-    2021-04-30 11:17:07,266 - INFO - step 68000 lr 0.000010, loss 53.355064, distill_loss 31.784113, teacher_loss 15.080336
-    2021-04-30 11:17:07,267 - INFO - Save model to output/yolov3_mobilenet_v1_voc/68000.
-    2021-04-30 11:17:11,296 - INFO - Test iter 0
-    2021-04-30 11:17:19,536 - INFO - Test iter 100
-    2021-04-30 11:17:27,316 - INFO - Test iter 200
-    2021-04-30 11:17:28,139 - INFO - Test finish iter 215
-    2021-04-30 11:17:28,139 - INFO - Total number of images: 1713, inference time: 100.96811715424725 fps.
-    2021-04-30 11:17:28,140 - INFO - Start evaluate...
-    2021-04-30 11:17:28,900 - INFO - Accumulating evaluatation results...
-    2021-04-30 11:17:28,942 - INFO - mAP(0.50, 11point) = 43.77%
-    2021-04-30 11:17:28,945 - INFO - Best test box ap: 44.40395830547559, in step: 66000
-    2021-04-30 11:17:49,528 - INFO - step 68100 lr 0.000010, loss 27.369240, distill_loss 16.653849, teacher_loss 9.920864
-    2021-04-30 11:18:11,643 - INFO - step 68200 lr 0.000010, loss 33.032845, distill_loss 9.333175, teacher_loss 23.038385
-    2021-04-30 11:18:32,545 - INFO - step 68300 lr 0.000010, loss 27.413500, distill_loss 15.899431, teacher_loss 8.539825
     2021-04-30 11:18:53,827 - INFO - step 68400 lr 0.000010, loss 21.284683, distill_loss 11.928459, teacher_loss 9.073975
     2021-04-30 11:19:14,828 - INFO - step 68500 lr 0.000010, loss 27.378477, distill_loss 11.061569, teacher_loss 15.730307
     2021-04-30 11:19:36,127 - INFO - step 68600 lr 0.000010, loss 19.714718, distill_loss 11.936641, teacher_loss 7.292910
@@ -250,10 +228,5 @@ Best test box ap: 44.40395830547559, in step: 66000
 
 # 我的公众号：
 
-![](https://ai-studio-static-online.cdn.bcebos.com/a8e6df2fbf2646bda546f96080faa3e98fe7c58f9d194cfea440764d41bd86e5)
+![](https://github.com/Sharpiless/Yolov3-MobileNet-Pruning/blob/main/code.png)
 
-
-
-```python
-
-```
